@@ -1,10 +1,16 @@
 Notes on First Blush
 ====================================================
 
+<HTML>
 [ ] Add semantic HTML elements to organize the page and aid SEO.
     [ ] Sections
-    [ ] Aside
+    [X] Aside
     [ ] Header
     [ ] Footer
 
-[ ] Page title needs to be changed to something relevant.
+[X] Page title needs to be changed to something relevant.
+
+[ ] Add alt attributes to all img elements.
+
+
+<CSS>
