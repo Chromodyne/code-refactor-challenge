@@ -1,3 +1,4 @@
+/* Universal*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,8 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header CSS */
-
+/* Header CSS Selectors*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,8 +43,7 @@ header div ul li {
     margin-left: 25px;
 }
 
-/* */
-
+/* Generic Tag Selectors */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,6 +53,8 @@ p {
     font-size: 16px;
 }
 
+
+/* Primary Image Class*/
 .hero {
     height: 800px;
     width: 100%;
@@ -73,12 +74,13 @@ p {
     margin-left: 25px;
 }
 
-content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Right Side Panel */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -89,6 +91,8 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* Benefit Classes*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -138,25 +142,9 @@ aside {
     max-width: 150px;
 }
 
+/*Search Engine Optimization Selectors*/
+
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -169,22 +157,25 @@ aside {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+
+/*Social Media Marketing Selectors*/
+
+.social-media-marketing {
     margin-bottom: 20px;
-    font-size: 36px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
 }
 
 .social-media-marketing h2 {
@@ -192,7 +183,27 @@ aside {
     font-size: 36px;
 }
 
-footer {
+/*=========================================*/
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.main-footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

@@ -1,16 +1,27 @@
 Notes on First Blush
 ====================================================
 
+*====From When/Then====*
 <HTML>
 [ ] Add semantic HTML elements to organize the page and aid SEO.
-    [ ] Sections
+    [X] Sections
     [X] Aside
-    [ ] Header
-    [ ] Footer
+    [X] Figure
+    [X] Header
+    [X] Footer
 
 [X] Page title needs to be changed to something relevant.
 
-[ ] Add alt attributes to all img elements.
+[X] Add alt attributes to all img elements.
 
+<CSS>
+
+
+
+*====From Acceptance Criterion====*
+
+<HTML>
+
+[ ] Some elements have both ids and classes where the ids remain unused.
 
 <CSS>
