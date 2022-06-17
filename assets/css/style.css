@@ -54,7 +54,7 @@ p {
 }
 
 
-/* Primary Image Class*/
+/* Primary Image Selector*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* Floating Content Selectors */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,13 +75,12 @@ p {
     margin-left: 25px;
 }
 
+/* Semantic Selectors*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-/* Right Side Panel */
 
 aside {
     margin-right: 20px;
@@ -113,9 +113,8 @@ aside {
     max-width: 150px;
 }
 
-/*Search Engine Optimization Selectors*/
-
-.search-engine-optimization {
+/*  */
+.main-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -124,52 +123,11 @@ aside {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.main-content img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-/*Social Media Marketing Selectors*/
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*=========================================*/
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
