@@ -10,8 +10,6 @@ Horiseon Social Solutions Services, Inc. is a company that excels in the growing
 
 In aims of that goal, the codebase has been completely refactored and condensed to improve readability, accessibility, and search engine optimization. The CSS stylesheet alone has had its lines of code reduced by a massive 27%! Care has been taken to maintain full functionality, readability, and provide improved code documentation.
 
-TODO: Scale as necessary.
-
 ---
 
 ![website screen shot](./assets/images/horiseon-social-solutions-2022.png)

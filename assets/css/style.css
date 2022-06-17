@@ -10,6 +10,16 @@ body {
     margin-bottom: 50px;
 }
 
+/* Grouping Selectors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* Header Selectors*/
 /* All related to the header or nav bar at the top of the page. */
 header {
@@ -45,16 +55,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Grouping Selectors */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* Background Image Selector*/
 /* This contains the styles for the .hero class which is tied to the primary background image. */
 .hero {
@@ -78,8 +78,7 @@ p {
     margin-left: 25px;
 }
 
-/* Semantic Selectors*/
-/*  */
+/* General Semantic Selectors*/
 main {
     width: 75%;
     display: inline-block;
@@ -96,17 +95,6 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* .page-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-} */
 
 /* Main Page Content Selectors*/
 /* These selectors modify the main content panels which run vertically down the left side of the page. */
@@ -145,3 +133,16 @@ footer h2 {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Footer Section */
+/* Note: Footer was missing from mockup image. Keeping in but commented. */
+/* .page-footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+} */
